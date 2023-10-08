@@ -1,0 +1,59 @@
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+    background-color: #000000;
+    color: #0077b6;
+    }
+  h1 {
+    position: relative;
+    margin: 0;
+    color: #e9d8a6;
+    font-size: 90px;
+    font-family: 'Montserra', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .loading01 span {
+    font-family: 'Arizonia', sans-serif;
+    font-size: 80px;
+    animation: loading01 1.4s infinite alternate;
+}
+
+.loading01 span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.loading01 span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.loading01 span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.loading01 span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.loading01 span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.loading01 span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+@keyframes loading01 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

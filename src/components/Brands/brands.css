@@ -1,0 +1,13 @@
+.brand__continer{
+    grid-template-columns: repeat(2, max-content);
+ justify-content: center;
+ column-gap: 1.25rem;   
+}
+
+.brand__img{
+    width: 120px;
+}
+
+.brand__img{
+    margin-top: 2rem;
+}

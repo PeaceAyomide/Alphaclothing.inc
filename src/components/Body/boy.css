@@ -1,0 +1,38 @@
+.new__container{
+    row-gap: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.new__card{
+    justify-self: center;
+}
+.new__img{
+    width: 270px;
+    margin-bottom: 1rem;
+}
+.new__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--title-color);
+    padding-right: .75rem;
+}
+
+.new__link i{
+    font-size: 1.25rem;
+    transition: .3s;
+}
+
+.new__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: .5rem;
+}
+
+.new__subtitle{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+}
+
+.new__link:hover i{
+    transform: translateX(.25rem);
+}

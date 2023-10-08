@@ -1,0 +1,56 @@
+
+body.dark-theme{
+    --bg-color: hsl(220, 18%, 12%);
+    --bg-color-light: hsl(220, 18%, 18%);
+    
+    --title-color: hsl(200, 10%, 85%);
+    --text-color: hsl(200, 6%, 60%);
+    --text-color-light: hsl(200, 90%, 60%);
+
+    --body-color: hsl(220, 18%, 10%);
+    --container-color: hsl(220, 18%, 14%);
+    
+
+}
+
+.dark-theme .scroll-header{
+    box-shadow: 0 2px 8px hsla(220, 18%, 8%, .3);
+}
+
+.dark-theme .nav__menu,
+.dark-theme .scrollup{
+    box-shadow: 0 4px 8px hsla(220, 18%, 8%, .3);
+}
+
+.dark-theme::-webkit-scrollbar{
+    background-color: hsl(220, 18%, 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+    background-color: hsl(220, 18%, 25%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(220, 18%, 35%);
+}
+
+
+.change-theme{
+    color: var(--title-color);
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1023px) {
+ /* changetheme.css */
+.theme-toggle {
+    margin-left: 3rem;
+    color: var(--text-color);
+  }
+  
+  .dark-theme .theme-toggle {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+}

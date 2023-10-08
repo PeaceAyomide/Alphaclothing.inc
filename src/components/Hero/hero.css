@@ -1,0 +1,63 @@
+.home{
+    background-color: var(--bg-color);
+    overflow: hidden;
+transition: .4s;
+}
+
+.home__container{
+    padding: 4rem 0 1rem;
+    row-gap: 8.5rem;
+}
+
+.home__title{
+    font-size: var(--biggest-font-size);
+    font-weight: 400;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.home__description{
+    color: var(--title-color);
+    margin: 1rem 0 2rem;
+}
+
+.home__title,
+.home__description{
+    line-height: 140%;
+}
+
+.home__images{
+    position: relative;
+    width: 310px;
+    justify-self: center;
+}
+
+.home__images img:nth-child(1){
+    width: 214px;
+    position: absolute;
+    right: -2rem;
+    top: -2.5rem;
+}
+
+.home__images img:nth-child(2){
+    width: 170px;
+    margin-left: .5rem;
+    position: relative;
+    top: 3rem;
+}
+
+.button__link{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.button__link i{
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.button__link:hover i{
+    transform: translateX(.25rem);
+}

@@ -17,11 +17,15 @@ const Hero = () => {
     <section className='home section' id='home' >
       <div className="home__container container grid">
         <div className="home__data" >
-          <h1 className="home__title" data-aos="fade-up-right" >
+          <h1 className="home__title" data-aos="fade-up-right" 
+            data-aos-once="true"
+            >
             Mens Clothing <br />
             Collection
           </h1>
-          <p className='home__description' data-aos="fade-right">
+          <p className='home__description' data-aos="fade-right"
+            data-aos-once="true"
+            >
             The Amazing brand new collection of<br />
              clothing from 
             our brands the best in the world
@@ -31,7 +35,9 @@ const Hero = () => {
 <AiOutlineArrowRight/>
           </a>
         </div>
-        <div className="home__images" data-aos="fade-right">
+        <div className="home__images" data-aos="fade-right"
+          data-aos-once="true"
+          >
           <img src={ALPHA1} alt="home image" / >
           <img src={ALPHA2} alt="home image" />
 

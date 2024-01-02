@@ -19,36 +19,48 @@ const Footer = () => {
           <div className="footer__container container grid">
               <div>
                   <a href="" className="footer__logo"data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                 Alpha.
                   </a>
                   <p className="footer__description" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                 Committed to bringing you the best clothing from popular brands  
                   </p>
               </div>
               <div className="footer__content">
                   <div>
                       <h3 className="footer__title" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                           Company
                       </h3>
                       <ul className="footer__links">
                           <li>
                               <a href="" className="footer__link"data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                             Shop
                               </a>
                           </li>
                           <li>
                               <a href="" className="footer__link"data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                             Category
                               </a>
                           </li>
                           <li>
                               <a href="" className="footer__link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                             Contact info
                               </a>
                           </li>
@@ -59,25 +71,33 @@ const Footer = () => {
 
                   <div>
                       <h3 className="footer__title" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
                           Blog
                       </h3>
                       <ul className="footer__links">
                           <li>
                               <a href="" className="footer__link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+      data-aos-once="true"
+    >
                             Events
                               </a>
                           </li>
                           <li>
                               <a href="" className="footer__link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                             Popular news
                               </a>
                           </li>
                           <li>
                               <a href="" className="footer__link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                            Recent news
                               </a>
                           </li>
@@ -87,12 +107,16 @@ const Footer = () => {
 
                   <div>
                       <h3 className="footer__title" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                         Office  
                       </h3>
 
                       <p className="footer__information" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                           Monday - Saturday
                           9AM - 10PM
                       </p>
@@ -100,20 +124,28 @@ const Footer = () => {
 
                   <div>
                       <h3 className="footer__title" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                           Contact us
                       </h3>
                       <ul className="footer__social">
                           <a href="" className="footer__social-link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                               <FaFacebookF/>
                           </a>
                           <a href="" className="footer__social-link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+     data-aos-once="true"
+    >
                               <BsInstagram/>
                           </a>
                           <a href="" className="footer__social-link" data-aos="fade-up"
-     data-aos-duration="300">
+     data-aos-duration="300"
+     data-aos-once="true"
+    >
                               <BsWhatsapp/>
                       </a>
                       </ul>

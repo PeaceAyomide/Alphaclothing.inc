@@ -17,13 +17,17 @@ const Body = () => {
   return (
 <section className='new section' id='new'>
 <h2 className='section__title' data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
 New Categories          
 </h2>  
 
 <div className="new__container container grid">
               <article data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
   <img src={WOMANRED} alt="new image" className='new__img' />
   <a href="#" className='new__link'>
 <div className="new__data">
@@ -39,7 +43,9 @@ New Categories
  </article>
 
  <article data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
   <img src={MANBLACK} alt="new image" className='new__img' />
   <a href="#" className='new__link'>
 <div className="new__data">
@@ -55,7 +61,9 @@ New Categories
  </article>
 
  <article data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
   <img src={MANHOODIE} alt="new image" className='new__img' />
   <a href="#" className='new__link'>
 <div className="new__data">

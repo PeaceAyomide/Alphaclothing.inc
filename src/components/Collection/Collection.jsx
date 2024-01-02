@@ -21,29 +21,41 @@ const Collection = () => {
         <div className="collection__explore">
           <div className="collection__data-men">
             <h2 className="collection__title" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
               Men <br />
               Collections
             </h2>
             <a href="" className="button__link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
               Explore Clothes <AiOutlineArrowRight/>
             </a>
           </div>
           
 <img src={CLOTHS} alt="" data-aos="fade-up"
-     data-aos-duration="3000"/>
+     data-aos-duration="3000"
+    data-aos-once="true"
+    />
         </div>     
         <div className="collection__explore" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
         <img src={CLOTHS2} alt="" />
           <div className="collection__data-women">
             <h2 className="collection__title" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
           MENS TOPS
             </h2>
             <a href="" className="button__link" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="3000"
+    data-aos-once="true"
+    >
               Explore Clothes <AiOutlineArrowRight/>
             </a>
           </div>

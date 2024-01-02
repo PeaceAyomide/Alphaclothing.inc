@@ -53,6 +53,8 @@ const Product = () => {
   return (
     <Swiper data-aos="fade-up"
     data-aos-duration="3000"
+    data-aos-once="true"
+    
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       navigation
